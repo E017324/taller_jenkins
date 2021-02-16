@@ -15,6 +15,12 @@ pipeline {
       }
     }
 
+    stage('despedida') {
+      steps {
+        input(message: 'lastima que termino', ok: 'Excelente taller')
+      }
+    }
+
   }
   environment {
     miNombre = 'E017324'
