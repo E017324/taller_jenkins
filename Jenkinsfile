@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Hola Mundo') {
       steps {
-        echo 'Hola Mundo'
+        echo 'Hola printeven miNombre'
         sh 'printenv'
         sh '''echo "Hola "
 printenv miNombre'''
