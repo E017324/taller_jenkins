@@ -5,8 +5,8 @@ pipeline {
       steps {
         echo 'Hola Mundo'
         sh 'printenv'
-        sh '''print "Hola "
-print env.miNombre'''
+        sh '''echo "Hola "
+echo printenv miNombre'''
       }
     }
 
