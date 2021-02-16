@@ -16,4 +16,7 @@ pipeline {
     }
 
   }
+  environment {
+    miNombre = 'E017324'
+  }
 }
