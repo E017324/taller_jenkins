@@ -6,7 +6,7 @@ pipeline {
         echo 'Hola Mundo'
         sh 'printenv'
         sh '''echo "Hola "
-echo printenv miNombre'''
+printenv miNombre'''
       }
     }
 
